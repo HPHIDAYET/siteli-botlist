@@ -1,0 +1,12 @@
+{
+  "token": "",
+  "prefix" : "+",
+  "owner" : ["","",""],
+  "clientid" : "",
+  "clientsecret" : "",
+  "clientcallback" : "",
+  "mongoURL" : "",
+  "serverID": "",
+  "footer": "GLOBAL FOOTER",
+  "tags": ["Moderation", "Fun", "Music","Economy","Guard","NSFW","Anime","Invite","Minecraft","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
+}
