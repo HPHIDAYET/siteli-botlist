@@ -1,5 +1,7 @@
 <html lang="en">
+  
 <head>
+
 <link rel="icon" href="../img/logo.png" type="image/x-icon" />
 <link rel="shortcut icon" href="../img/logo.png"" type="image/x-icon" />
 <link rel="stylesheet" href="../../css/bulma.css">
@@ -69,16 +71,16 @@
                           <img width="32" class="profile-image" style="border-radius: 50%" src="https://cdn.discordapp.com/avatars/<%=user.id%>/<%=user.avatar%>" translate="no"> <%= user.username %>
                         </a>
                         <div title="OP" class="dropdown-menu animate slideIn" aria-labelledby="navbarDropdown">
-                          <a title="OP" class="dropdown-item" href="/user/<%=user.id%>"><i class="fad fa-user"></i>&nbsp;Profile</a>
-                          <a title="OP" class="dropdown-item" href="/certification"><i class="fad fa-badge-check"></i>&nbsp;Certification</a>
-                          <a title="OP" class="dropdown-item" href="/addbot"><i class="fad fa-paper-plane"></i>&nbsp;Submit Bot</a>
-                          <a translate="no" title="OP" class="dropdown-item" href="/uptime/links"><i class="fad fa-sync-alt"></i>&nbsp;Uptime Links</a>
+                          <a title="OP" class="dropdown-item" href="/user/<%=user.id%>"><i class="fad fa-user"></i>&nbsp;Profil</a>
+                          <a title="OP" class="dropdown-item" href="/certification"><i class="fad fa-badge-check"></i>&nbsp;Sertifika</a>
+                          <a title="OP" class="dropdown-item" href="/addbot"><i class="fad fa-paper-plane"></i>&nbsp;Bot Ekle</a>
+                          <a translate="no" title="OP" class="dropdown-item" href="/uptime/links"><i class="fad fa-sync-alt"></i>&nbsp;Uptime</a>
                           <div class="dropdown-divider"></div>
-                          <a title="OP" class="dropdown-item" href="/logout"><i class="fad fa-sign-out"></i>&nbsp;Logout</a>
+                          <a title="OP" class="dropdown-item" href="/logout"><i class="fad fa-sign-out"></i>&nbsp;Çıkış Yap</a>
                         </div>
                       </li>
                 <% } else {%>
-                    <li class="nav-item active"><a class="nav-link" title="OP" href="/login"><i class="fad fa-sign-in"></i>&nbsp;Login</a></li>
+                    <li class="nav-item active"><a class="nav-link" title="OP" href="/login"><i class="fad fa-sign-in"></i>&nbsp;Giriş Yap</a></li>
                 <% } %>           
             </ul>
         </div>
