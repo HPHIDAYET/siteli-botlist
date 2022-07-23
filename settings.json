@@ -1,12 +1,12 @@
 {
-  "token": "MTAwMDM0NTkyMTk3ODEyMjI2MA.GSJ9eC.MzbisBliUXeARipPIPMZ43E5NY7wBQO9qXv5qs",
-  "prefix" : "+",
-  "owner" : ["971370440285122560","",""],
+  "token": "MTAwMDM0NTkyMTk3ODEyMjI2MA.GunXT9.R1TkFaI8Y2K1Wg_pnfRBKDLBWqURnOJqP_QbBI",
+  "prefix" : "!",
+  "owner" : ["971370440285122560"],
   "clientid" : "1000345921978122260",
-  "clientsecret" : "mjZCi9zMyRmkivrd8VpXNobFij2wMS37",
+  "clientsecret" : "ldYZXcXZhS9P__VJS6VuQpbuy2gmpaGx",
   "clientcallback" : "https://sideways-half-spoonbill.glitch.me/callback",
   "mongoURL" : "mongodb+srv://zivosku:VIutY8ptJJ8HamID@cluster0.3ghqlgt.mongodb.net/?retryWrites=true&w=majority",
-  "serverID": "",
+  "serverID": "1000338546944647198",
   "footer": "GLOBAL FOOTER",
   "tags": ["Moderation", "Fun", "Music","Economy","Guard","NSFW","Anime","Invite","Minecraft","Logging", "Web Dashboard", "Reddit", "Youtube", "Twitch", "Crypto", "Leveling", "Game", "Roleplay", "Utility", "Turkish"]
 }
