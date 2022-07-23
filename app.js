@@ -1,4 +1,4 @@
-
+ 
   const url = require("url");
   const path = require("path");
   const express = require("express");
@@ -571,8 +571,6 @@ app.get("/sitemap.xml", async function(req,res) {
           const botdata = await botsdata.findOne({ botID: req.params.botID })
           if(!botdata) return res.redirect("/error?code=404&message=You entered an invalid bot id.");
           let guild = client.guilds.cache.get(settingsc.serverID)
-          guild.members.cache.get(botdata.botID).roles.remove(roles.bot);
-          await guild.members.cache.get(botdata.botID).kick();
           await botsdata.deleteOne({ botID: req.params.botID, ownerID: botdata.ownerID })
           return res.redirect(`/admin/approved?success=true&message=Bot deleted.`)
        });
