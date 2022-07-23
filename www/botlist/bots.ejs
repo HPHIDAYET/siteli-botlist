@@ -78,7 +78,7 @@
                    <center>
 
                     <div class="cardvcodesbotButtons is-flex">
-                        <a href="/bot/<%= a.botID %>" class="cardBtn1 btn-cardd"><i class="fad fa-eye"></i>&nbsp;View</a>
+                        <a href="/bot/<%= a.botID %>" class="cardBtn1 btn-cardd"><i class="fad fa-eye"></i>&nbsp;Bak</a>
                         <a href="/redirect?type=botInvite&botID=<%= a.botID %>" class="cardBtn2 btn-cardd"><i class="fad fa-user-plus"></i>&nbsp;Invite</a>
                     </div>
                   </center>
@@ -121,7 +121,7 @@ if (page != 1) {
      title: 'Succesfull...',
      closeOnConfirm: false,
      text: urlParams.get('message'),
-     footer: 'Copyright 2021 &copy www.op.xyz - All right reserved.'
+     footer: 'Copyright 2022 &copy Ultra - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
     window.location.href = `/bot/${urlParams.get('botID')}`;
@@ -133,7 +133,7 @@ if (page != 1) {
      icon: 'error',
      title: 'Oops...',
      text: urlParams.get('message'),
-     footer: 'Copyright 2021 &copy www.op.xyz - All right reserved.'
+     footer: 'Copyright 2022 &copy Ultra - All right reserved.'
     }).then((result) => {
   if (result.isConfirmed) {
     window.location.href = '/addbot';

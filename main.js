@@ -13,7 +13,7 @@ const fetch = require("node-fetch");
 const roles = require("./roles.json")
   
 const channels = require("./channels.json")
-client.htmll = require('cheerio');
+client.htmll = require('cheerio');  
 
 //-------------Database---------------\\
 
@@ -75,7 +75,7 @@ require("./app.js")(client);
 //-------------Events---------------\\
 client.on('ready',async () => {
 console.log("`" + client.user.username + "` Successfully Activated!");
-client.user.setPresence({ activity: { type: 'WATCHING', name: 'op.xyz' }, status: "idle" });
+client.user.setPresence({ activity: { type: 'WATCHING', name: 'Ultra Code' }, status: "idle" });
 })
 
 
